@@ -1,0 +1,18 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.estadisticas{
+    margin-top: 4rem;
+    align-items: center;
+    @include m.tablet { 
+        display: flex;
+        @include m.grid(2, 2rem);
+    }
+    h2{
+        margin-top: 4rem;
+        @include m.headingBorder(v.$secundario, v.$primario);
+       
+    }
+   
+}
+
