@@ -61,7 +61,7 @@
 @mixin iconBg($url){
     background-image: url($url);
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: 50% 2rem;
     background-size: 10rem;
 }
 
