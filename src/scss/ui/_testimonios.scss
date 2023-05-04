@@ -23,6 +23,7 @@
      }
     h2{
         @include m.headingBorder(v.$secundario, v.$primario);
+        padding-bottom: 4rem;
     }
     
     .contenido{
