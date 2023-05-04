@@ -1,12 +1,12 @@
 {
   "name": "podcast",
   "version": "1.0.0",
-  "description": "Podcast App. CSS Grid, Flexbox, Gulp, SASS",
+  "description": "Podcast",
   "main": "index.js",
   "scripts": {
     "dev": "gulp"
   },
-  "author": "Juan De la torre @codigoconjuan",
+  "author": "Marta alcázar",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^10.3.1",
